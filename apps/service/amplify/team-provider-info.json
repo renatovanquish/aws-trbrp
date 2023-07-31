@@ -1,0 +1,55 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-service-dev-185252-authRole",
+      "UnauthRoleArn": "arn:aws:iam::990838898128:role/amplify-service-dev-185252-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::990838898128:role/amplify-service-dev-185252-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-service-dev-185252-deployment",
+      "UnauthRoleName": "amplify-service-dev-185252-unauthRole",
+      "StackName": "amplify-service-dev-185252",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:990838898128:stack/amplify-service-dev-185252/d7165750-5c2e-11ed-95bd-026ca89a5656",
+      "AmplifyAppId": "d24eoff09eoa38",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-service-dev-185252-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "function": {
+        "listItems": {
+          "deploymentBucketName": "amplify-service-dev-185252-deployment",
+          "s3Key": "amplify-builds/listItems-45427476485562616d4b-build.zip"
+        },
+        "bookAdminHandler": {
+          "deploymentBucketName": "amplify-service-dev-185252-deployment",
+          "s3Key": "amplify-builds/bookAdminHandler-4167703365326d396359-build.zip"
+        },
+        "todoHandler": {
+          "deploymentBucketName": "amplify-service-dev-185252-deployment",
+          "s3Key": "amplify-builds/todoHandler-6b653239462f394c6948-build.zip"
+        },
+        "S3Trigger44133f08": {
+          "deploymentBucketName": "amplify-service-dev-185252-deployment",
+          "s3Key": "amplify-builds/S3Trigger44133f08-554a49322b7835335036-build.zip"
+        }
+      },
+      "auth": {
+        "service": {}
+      },
+      "api": {
+        "itemsApi": {},
+        "mybookapi": {},
+        "todos": {}
+      },
+      "storage": {
+        "CdkWorkshopDemoTableEE720AED186MGVGPXS275": {
+          "tableName": "CdkWorkshop-DemoTableEE720AED-186MGVGPXS275",
+          "region": "ap-southeast-2",
+          "arn": "arn:aws:dynamodb:ap-southeast-2:990838898128:table/CdkWorkshop-DemoTableEE720AED-186MGVGPXS275",
+          "partitionKeyName": "id",
+          "partitionKeyType": "S"
+        },
+        "s3Bucket": {},
+        "ddbservice": {}
+      }
+    }
+  }
+}
